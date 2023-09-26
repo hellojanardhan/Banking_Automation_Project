@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-26T22:26:43 IST" name="Default suite" finished-at="2023-09-26T22:26:54 IST" duration-ms="11020">
+    <groups>
+    </groups>
+    <test started-at="2023-09-26T22:26:43 IST" name="Default test" finished-at="2023-09-26T22:26:54 IST" duration-ms="11020">
+      <class name="com.opencartAutomation.DeleteAccount">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.opencartAutomation.DeleteAccount@7a35b0f5]" started-at="2023-09-26T22:26:43 IST" name="setUp" finished-at="2023-09-26T22:26:47 IST" duration-ms="4027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="launchBrowser()[pri:0, instance:com.opencartAutomation.DeleteAccount@7a35b0f5]" started-at="2023-09-26T22:26:47 IST" name="launchBrowser" finished-at="2023-09-26T22:26:51 IST" duration-ms="3837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="login()[pri:0, instance:com.opencartAutomation.DeleteAccount@7a35b0f5]" started-at="2023-09-26T22:26:51 IST" name="login" finished-at="2023-09-26T22:26:53 IST" depends-on-methods="com.opencartAutomation.DeleteAccount.launchBrowser" duration-ms="2035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="deleteAccount()[pri:0, instance:com.opencartAutomation.DeleteAccount@7a35b0f5]" started-at="2023-09-26T22:26:53 IST" name="deleteAccount" finished-at="2023-09-26T22:26:54 IST" depends-on-methods="com.opencartAutomation.DeleteAccount.login" duration-ms="1078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAccount -->
+      </class> <!-- com.opencartAutomation.DeleteAccount -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
